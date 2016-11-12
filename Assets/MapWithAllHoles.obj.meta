@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: e1e0560d870c34e8ead96f0707e80143
-timeCreated: 1478983771
+guid: 7c484967cc5c5408ca8dd8f2e1949db4
+timeCreated: 1478991333
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
-    100002: MeshBody1
+    100002: MeshBody2
     400000: //RootNode
-    400002: MeshBody1
-    2300000: MeshBody1
-    3300000: MeshBody1
-    4300000: MeshBody1
+    400002: MeshBody2
+    2300000: MeshBody2
+    3300000: MeshBody2
+    4300000: MeshBody2
   materials:
     importMaterials: 1
     materialName: 0
