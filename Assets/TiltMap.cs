@@ -18,13 +18,17 @@ public class TiltMap : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-//		float horizontal = Input.GetAxis ("Horizontal");
-//		float vertical = Input.GetAxis ("Vertical");
-//		//rb.transform.rotation.Set(vertical+100, 0, horizontal+100, 0);
-//		print(rb.transform.rotation);
+        //		float horizontal = Input.GetAxis ("Horizontal");
+        //		float vertical = Input.GetAxis ("Vertical");
+        //		//rb.transform.rotation.Set(vertical+100, 0, horizontal+100, 0);
+        //		print(rb.transform.rotation);
 
-		rb.transform.Rotate((Vector3.forward*Input.GetAxis("Horizontal")*1)+(Input.GetAxis("Vertical")*Vector3.left*1));
+        if (Mathf.Abs(Input.GetAxis("Horizontal")) <= (float).7 && Mathf.Abs(Input.GetAxis("Vertical")) <= (float).7)
+        {
+            rb.transform.Rotate((Vector3.forward * Input.GetAxis("Horizontal") * 1) + (Input.GetAxis("Vertical") * Vector3.left * 1));
+        }
 
+        Debug.Log(Input.GetAxis("Horizontal") * 1);
 
 	}
 
