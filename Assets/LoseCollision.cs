@@ -12,14 +12,14 @@ public class LoseCollision : MonoBehaviour {
 
 	void OnGUI(){
 		if (collide) {
-			if (GUI.Button (new Rect (Screen.width / 2 - 75, Screen.height / 2 - 20, 150, 30), "PlayAgain?")) {
+			if (GUI.Button (new Rect (Screen.width / 2 - 75, Screen.height / 2 - 20, 150, 30), "Play Again?")) {
 				print ("Starting new game");
 				Scene scene = SceneManager.GetActiveScene();
 				SceneManager.LoadScene (scene.name);
 			}
-			if (GUI.Button (new Rect (Screen.width / 2 - 75, Screen.height / 2 + 20, 150, 30), "Quit?")) {
-				print ("Quit game");
-				Application.Quit ();
+			if (GUI.Button (new Rect (Screen.width / 2 - 75, Screen.height / 2 + 20, 150, 30), "Quit to menu?")) {
+				print ("Quit to menu");
+				SceneManager.LoadScene ("titleScreen");
 			}
 		}
 	}
