@@ -1,9 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TiltMap.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/titleMenu.cs">
     <Files>
-      <File FileName="Assets/TiltMap.cs" Line="19" Column="36" />
-      <File FileName="../Solar System/Assets/FlyScript.cs" Line="22" Column="61" />
+      <File FileName="Assets/titleMenu.cs" Line="27" Column="96" />
+      <File FileName="Assets/TiltMap.cs" Line="1" Column="1" />
+      <File FileName="../Solar System/Assets/FlyScript.cs" Line="1" Column="1" />
+      <File FileName="../Solar System/Assets/GravityScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/GravityScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/WinCollision.cs" Line="22" Column="25" />
+      <File FileName="Assets/LoseCollision.cs" Line="21" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

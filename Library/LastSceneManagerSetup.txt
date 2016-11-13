@@ -1,4 +1,10 @@
 sceneSetups:
-- path: Assets/gameScene.unity
+- path: Assets/titleScreen.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/gameScene.unity
+  isLoaded: 1
+  isActive: 0
+- path: Assets/babySteps.unity
+  isLoaded: 1
+  isActive: 0
