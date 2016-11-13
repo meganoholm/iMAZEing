@@ -15,3 +15,5 @@
 /Users/megan/Desktop/RolyPolyMaze/Temp/bin/Debug/Assembly-CSharp.dll
 /Users/megan/Desktop/RolyPolyMaze/obj/Debug/Assembly-CSharp.dll
 /Users/megan/Desktop/RolyPolyMaze/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/megan/Desktop/RolyPolyMaze/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/megan/Desktop/RolyPolyMaze/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb

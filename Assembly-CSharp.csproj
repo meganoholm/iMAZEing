@@ -48,8 +48,10 @@
      <Compile Include="Assets\ExplosionScript.cs" />
      <Compile Include="Assets\FlyScript.cs" />
      <Compile Include="Assets\GravityScript.cs" />
+     <Compile Include="Assets\LoseCollision.cs" />
      <Compile Include="Assets\MoonBoost.cs" />
      <Compile Include="Assets\TiltMap.cs" />
+     <Compile Include="Assets\WinCollision.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
